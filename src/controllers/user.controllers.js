@@ -35,9 +35,6 @@ const create = catchError(async(req, res) => {
             <br>
             <p><b>Code: </b> ${code}</p>
             <br>
-            <p>token secret  ${TOKEN_SECRET}</p>
-            <br>
-            <p>token  ${TOKEN}</p>
             <b>Gracias por iniciar sesión en user app</b>
         `,
     });
